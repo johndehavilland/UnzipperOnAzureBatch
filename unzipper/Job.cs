@@ -284,7 +284,7 @@ namespace unzipper
                 unzipperSettings.StorageAccountKey,
                 unzipperSettings.StorageServiceUrl);
             var container = client.GetContainerReference(unzipperSettings.Container);
-            var list = container.ListBlobs();
+            var list = container.ListBlobs(null,true,BlobListingDetails.None);
 
             return list;
         }
