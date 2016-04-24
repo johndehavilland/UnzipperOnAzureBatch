@@ -1,6 +1,4 @@
-﻿//Copyright (c) Microsoft Corporation
-
-using Microsoft.Azure.Batch;
+﻿using Microsoft.Azure.Batch;
 using Microsoft.Azure.Batch.Auth;
 using Microsoft.Azure.Batch.Common;
 using Microsoft.Azure.Batch.FileStaging;
