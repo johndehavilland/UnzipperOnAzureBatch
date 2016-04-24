@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="unzipper" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PoolNodeCount" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="PoolId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UnzipperPool</Value>
+    </Setting>
+    <Setting Name="DeleteJob" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DeleteContainer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="JobId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">UnzipperJob</Value>
+    </Setting>
+    <Setting Name="ShouldDeletePool" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ShouldDeleteJob" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ShouldDeleteContainer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Container" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(Container-name-where-zipped-files-are)</Value>
+    </Setting>
+    <Setting Name="MaxTasksPerNode" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MachineSize" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Standard_D2</Value>
+    </Setting>
+    <Setting Name="BatchServiceUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://(Azure_Batch_Name).(Region).batch.azure.com</Value>
+    </Setting>
+    <Setting Name="BatchAccountName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(Azure_Batch_Name)</Value>
+    </Setting>
+    <Setting Name="BatchAccountKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(Azure_Batch_Key)</Value>
+    </Setting>
+    <Setting Name="StorageServiceUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">core.windows.net</Value>
+    </Setting>
+    <Setting Name="StorageAccountName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(Azure_StorageAccount_Name)</Value>
+    </Setting>
+    <Setting Name="StorageAccountKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(Azure_storage_Key)</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
